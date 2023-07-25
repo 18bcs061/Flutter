@@ -1,4 +1,8 @@
+// ignore_for_file: duplicate_import, prefer_const_constructors
+
+import 'package:first_flutter_app/widgets/myDrawer.dart';
 import 'package:flutter/material.dart';
+import '../widgets/myDrawer.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -12,6 +16,6 @@ class HomePage extends StatelessWidget {
         body: const Center(
           child: Text('Welcome to the first app'),
         ),
-        drawer: const Drawer());
+        drawer: MyDrawer());
   }
 }

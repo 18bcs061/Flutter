@@ -19,7 +19,7 @@ class MyDrawer extends StatelessWidget {
               child: UserAccountsDrawerHeader(
                 margin: EdgeInsets.zero,
                 accountName: Text(
-                  "Abhishek Kumar",
+                  "Abhishek",
                   style: TextStyle(color: Colors.white),
                 ),
                 accountEmail: Text(
